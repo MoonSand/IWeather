@@ -128,8 +128,8 @@ implements HomePageFragment.OnFragmentInteractionListener, DrawerMenuFragment.On
         tv_temp.setText(weather.getWeatherLive().getTemperature()+"°");
 
         tv_weather.setText(weather.getWeatherLive().getWeather());
-        tv_tempMin.setText(weather.getWeatherForecasts().get(0).getTempMin()+"℃");
-        tv_tempMax.setText(weather.getWeatherForecasts().get(0).getTempMax()+"℃");
+        // tv_tempMin.setText("");
+        tv_tempMax.setText(weather.getWeatherForecasts().get(0).getTempMin()+"℃"+"~"+weather.getWeatherForecasts().get(0).getTempMax()+"℃");
 
     }
 

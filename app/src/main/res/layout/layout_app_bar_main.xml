@@ -78,7 +78,7 @@
                         android:layout_alignParentBottom="true"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentRight="true"
-                        android:text="30℃"
+                        android:text=""
                         android:textColor="#0066FF"
                         android:textSize="20sp"
                         android:layout_marginRight="10dp"/>
@@ -91,7 +91,7 @@
                         android:layout_toLeftOf="@+id/tv_tempMax"
                         android:layout_toStartOf="@+id/tv_tempMax"
                         android:paddingRight="20dp"
-                        android:text="25℃"
+                        android:text=""
                         android:textColor="#0066FF"
                         android:textSize="20sp" />
 
